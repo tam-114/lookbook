@@ -119,9 +119,9 @@ body {
 /*Introduction*/
 
 .intro {
-  margin-top: 15%;
+  margin-top: 10%;
   justify-content: center;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .intro:last-child {
