@@ -135,7 +135,6 @@ body {
   filter: blur(49px) saturate(9);
   -webkit-animation: 8s linear .5s infinite fadeloop;
   animation: 8s linear .5s infinite fadeloop;
-  overflow: hidden;
   
 }
 
@@ -155,7 +154,6 @@ body {
   -webkit-animation: 8s linear .5s infinite fadeloop2;
   animation: 8s linear .5s infinite fadeloop2;
   animation-delay: 12s;
-  overflow: hidden;
 }
 
 @keyframes fadeloop {
