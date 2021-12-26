@@ -154,10 +154,11 @@ body {
   filter: blur(49px) saturate(9);
   -webkit-animation: 8s linear .5s infinite fadeloop2;
   animation: 8s linear .5s infinite fadeloop2;
+  animation-delay: 12s;
 }
 
 @keyframes fadeloop {
-  0%, 100% {
+  20%, 100% {
     opacity: 1;
     transform: scale(1) rotate(0);
   }
@@ -168,7 +169,7 @@ body {
 }
 
 @keyframes fadeloop2 {
-  0%, 100% {
+  20%, 100% {
     opacity: .4;
     transform: scale(1) rotate(0);
   }
@@ -176,7 +177,15 @@ body {
     opacity: .2;
     transform: scale(1.5) rotate(50deg);
   }
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: .1;
+  }
 }
+
 .intro:last-child {
   color: white;
 }
