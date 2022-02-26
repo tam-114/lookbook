@@ -6,3 +6,4 @@ function openHamburgerMenu(){
       x.className = "navBar";
     }
   }
+

@@ -35,6 +35,8 @@
 </head>
 <body>
 
+<div id="preloader"></div>
+
 <div class="navBar" id="mainNavBar">
     <a href="#home" aria-label="home logo"><img src="images/ts_logo.png" alt="TS logo" width="40px" height="45px"></a>
     <a href="#home" aria-labelledby="home">Home</a>
@@ -376,6 +378,13 @@
                 <p id="p-trademark">All Rights Reserved | Taylor Stanley 2022 ©</p>
                </footer>
                
+   <!--JS for Preloader--------------------------------------------------------------->
+<script>
+  var loader = document.getElementById("preloader");
+    window.addEventListener("load", function() {
+        loader.style.display= "none";
+    })
+</script>
   <!-- End Document ––––––––––––––––––––––––––––––––––––––––––––––––––-->
 </body>
 </html>
