@@ -575,7 +575,8 @@ footer {
  }
 
  #preloader {
-   background: #000 url("/images/box-loading-150x150.gif") no-repeat center center;
+   background: #000 url("/images/stars.gif") no-repeat center center;
+   background-size: 15%;
    height: 100vh;
    width: 100%;
    position: fixed;
