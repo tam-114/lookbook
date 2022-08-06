@@ -110,7 +110,14 @@ body {
   }
 }
 
+section {
+  margin-bottom: 24px;
+}
 
+.container {
+  margin-bottom: var(--mb-3);
+  margin-top: var(--mb-3);
+}
 
 /*Introduction*/
 
@@ -497,8 +504,9 @@ img {
 100% { width: 80%; }
 }
 
-.container .skills_content {
+.skills_content {
   margin-bottom: var(--mb-2-5);
+  /* margin-top: var(--mb-3); */
 }
 
 h3.subtitle {
