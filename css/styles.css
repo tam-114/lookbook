@@ -196,7 +196,8 @@ button, a {
 }
 
 button, a:hover {
-  color:  rgb(187, 180, 255);
+  /* color:  rgb(187, 180, 255); */
+  color: var(--tag-pink)
 }
 
 img {
@@ -419,7 +420,10 @@ h3.subtitle {
   color: white;
 }
 
-
+.body-text {
+  color: white;
+  font-size: var(--semi-normal-font-size);
+}
 /*Footer*/
 
 .p-dark {
