@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" role="main">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Portfolio: Taylor Stanley</title>
   <meta name="description" content="Portfolio website for Taylor Stanley, Junior Front-End Developer">
   <meta name="author" content="Taylor Stanley">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- -----------Mobile Specific Metas--------- -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- ------------- FONT ------------- -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- ---------------- CSS ------------ -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- ---------------- Favicon -------------- -->
   <link rel="icon" type="image/png" href="images/ts_logo.png">
 
-  <!--JS-->
+  <!-- --------------- JS ----------------- -->
   <script src="js/script.js"></script>
 
-  	<!--Font library-->
+  	<!-- --------------- Font library------------ -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -40,7 +33,7 @@
 <div class="navBar" id="mainNavBar">
     <a href="#home" aria-label="home logo"><img src="images/ts_logo.png" alt="TS logo" width="40px" height="45px"></a>
     <a href="#home" aria-labelledby="home">Home</a>
-    <a href="#about" aria-labelledby="about">About</a>
+    <!-- <a href="#about" aria-labelledby="about">About</a> -->
     <a href="#projects" aria-labelledby="projects">Projects</a>
     <a href="#contact" aria-labelledby="contact">Contact</a>
     <a href="javascript:void(0);" class="icon" aria-label="menu" onclick="openHamburgerMenu()">&#9776;</a>
@@ -48,20 +41,21 @@
   </div>
   <br>
 
-  <!-- Primary Page Layout ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<!-- ------------- Primary Page Layout ----------- -->
 
-<!--introduction header-->
+<!--Introduction Header-->
 <section id="home">
   <div class="intro container">
-   <div class="bg-grad-anim"></div>
-   <div class="bg-grad-anim-2"></div>
-   <div class="row">
+    <div class="bg-grad-anim"></div>
+    <div class="bg-grad-anim-2"></div>
+
+  <div class="row">
     <div class="six columns">
-     <img src="images/bitmoji-smile.png" alt="Bitmoji of african american girl smiling" class="intro-pic">
-     
+      <img src="images/bitmoji-smile.png" alt="Bitmoji of african american girl smiling" class="intro-pic">
     </div>
+
     <div class="six columns">
-     <h1>Hi, I'm Tay</h1>
+      <h1>Hi, I'm Tay</h1>
       <h2 class="gradient-text">Your Junior Front-End Web Designer</h2>
       <p>
        <em>Formally known as Taylor Stanley</em>
@@ -69,351 +63,325 @@
       <button>
        <a href="#contact" aria-label="message me">Message Me</a>
       </button>
-      </div>
-      </div>
+    </div>
+  </div>
+  </div>   
+</section>
+<!--end header-->
+      
+<!-- About Me -->
+<!-- <section id="about" title="about">
+
+</section> -->
+
+<section id="projects" title="projects">
+
+  <!-- Transition -->
+  <!-- <div class="break-container">
+    <h1 class="project-title break-center">Projects</h1>
+  </div> -->
+
+    <!-- Project SOS-->
+    <div class="card-container">
+
+      <!-- Title -->
+      <h3 class="project-title">Squad on Site (S.O.S)</h3>
+
+      <!-- Subtitle -->
+      <h4 class="project-subtitle">
+          <i class="far fa-lightbulb"></i>
+          Personal Project
+      </h4>
+      
+      <!-- Image -->
+      <img src="images/sos-devices.png" class="project-img" alt="SOS Mobile app homescreen graphic">
+
+      <!-- Description -->
+      <p class="project-description">The Squad on Site (SOS) mobile app allows gamers to find other likeminded people to play team-based games with, and was a project in my Web Design Workshop
+      class that I've developed more on. In this collaborative effort, my role was as the 
+      designer and showcased are the design elements I've created.</p>
+
+
+      <!-- Tags -->
+      <div class="tags">
+          <span class="solid" style="background-color: var(--tag-pink);">Graphic Design</span>
+          <span class="solid" style="background-color: var(--tag-blue);">Adobe Photoshop</span>
+          <span class="solid" style="background-color: var(--tag-purple);">Adobe XD</span>
+          <span class="solid" style="background-color: var(--tag-ashpurple);">HTML5</span>
+          <span class="solid" style="background-color: var(--tag-pink);">CSS3</span>
+          <span class="solid" style="background-color: var(--tag-blue);">JavaScript</span>
+          <span class="solid" style="background-color: var(--tag-purple);">Wireframing</span>
+          <span class="solid" style="background-color: var(--tag-ashpurple);">Logo</span>
       </div>
       
+      <!-- Button -->
+      <div class="btn-container">
+          <button class="btn">
+              <a href="sos.html">
+                  View 
+                  <i class="fas fa-angle-double-right"></i>
+              </a>
+          </button>
+      </div>
+  </div>
+
+
+
+  <!-- Personal Project Beauty Royale Site-->
+  <div class="card-container">
+
+      <!-- Title -->
+      <h3 class="project-title">Beauty Royale Hair Salon</h3>
+
+      <!-- Subtitle -->
+      <h4 class="project-subtitle">
+          <i class="far fa-lightbulb"></i>
+          Personal Project
+      </h4>
       
-      </section>
-      <!--end header-->
+      <!-- Image -->
+      <img src="images/beauty-royale-devices.png" class="project-img" alt="Beauty Royale homepage site on laptop and mobile">
+
+      <!-- Description -->
+      <p class="project-description">The Beauty Royale website is a faux hair salon shop created in WordPress. This salon caters to type 4 hair types, typically found in people of color. The uniqueness of this salon is the opportunity to play video games while the client's hair is styled.</p>
+
+      <!-- Tags -->
+      <div class="tags">
+          <span class="solid" style="background-color: var(--tag-pink);">WordPress</span>
+          <span class="solid" style="background-color: var(--tag-blue);">Gutenberg</span>
+          <span class="solid" style="background-color: var(--tag-purple);">CMS</span>
+          <span class="solid" style="background-color: var(--tag-ashpurple);">Graphic Design</span>
+      </div>
       
-      <br>
-      <br>
-      <section id="about" title="about">
-       <!--==================== SKILLS FRONT ====================-->
-       <div class="container">
-        <div class="skills_content skills_open">
-         <div class="skills_header">
-          <div>
-           <h1 class="skills_title">Front-End Development</h1>
-           <span class="skills_subtitle">More than 1 year </span>
-          </div>
-         </div>
-        </div>
-        
-        
-        <div class="row">
-         <div class="six columns">
-          <img src="images/HTML.svg" alt="HTML icon with blurb background" width="100%">
-          
-          <!-- <div class="skills_titles">
-           <h3 class="skills_name">HTML</h3>
-           <span class="skills_number">90%</span>
-          </div> -->
-          
-          <!-- <div class="skills_bar">
-           <span class="skills_percentage skills_html"></span>
-          </div> -->
-         </div>
-         
-         <div class="six columns">
-          <img src="images/CSS.svg" alt="CSS icon with blurb background" width="100%">
-          
-          <!-- <div class="skills_titles">
-           <h3 class="skills_name">CSS</h3>
-           <span class="skills_number">80%</span>
-          </div> -->
-          
-          <!-- <div class="skills_bar">
-           <span class="skills_percentage skills_css"></span>
-          </div> -->
-         </div>
-        </div>
-        <!--end row-->
-        <br>
-        
-        <div class="row">
-         <div class="six columns">
-          <img src="images/JS.svg" alt="JS icon with blurb background" width="100%">
-          
-          <!-- <div class="skills_titles">
-           <h3 class="skills_name">JS</h3>
-           <span class="skills_number">60%</span>
-          </div> -->
-          
-          <!-- <div class="skills_bar">
-           <span class="skills_percentage skills_js"></span>
-          </div> -->
-         </div>
-         
-         <div class="six columns">
-          <img src="images/WORDPRESS.svg" alt="Wordpress icon with blurb background" width="100%">
-          
-          <!-- <div class="skills_titles">
-           <h3 class="skills_name">Wordpress</h3>
-           <span class="skills_number">50%</span>
-          </div> -->
-          
-          <!-- <div class="skills_bar">
-           <span class="skills_percentage skills_wp"></span>
-          </div> -->
-         </div>
-        </div>
-       </div>
-       <!--end container-->
-       
-       <br>
-       <br>
-       <!--==================== SKILLS BACKEND ====================-->
-       <div class="container">
-        <div class="skills_content skills_open">
-         <div class="skills_header">
-          <div>
-           <h1 class="skills_title">Back-End Development</h1>
-           <span class="skills_subtitle">Less than 1 year </span>
-          </div>
-         </div>
-        </div>
-        
-        <div class="row">
-         <div class="six columns">
-          <img src="images/PHP.svg" alt="PHP icon with blurb background" width="100%">
-          
-          <!-- <div class="skills_titles">
-           <h3 class="skills_name">PHP</h3>
-           <span class="skills_number">60%</span>
-          </div> -->
-          
-          <!-- <div class="skills_bar">
-           <span class="skills_percentage skills_php"></span>
-          </div> -->
-         </div>
-         
-         <div class="six columns">
-          <img src="images/MYSQL.svg" alt="MYSQL icon with blurb background" width="100%">
-          <!-- <div class="skills_titles">
-           <h3 class="skills_name">mySQL</h3>
-           <span class="skills_number">50%</span>
-          </div> -->
-          
-          <!-- <div class="skills_bar">
-           <span class="skills_percentage skills_mysql"></span>
-          </div> -->
-         </div>
-         
-        </div>
-        <!--end row-->
-       </div>
-       <!--end container-->
-       
-       <br>
-       <br>
-       
-       <!--==================== SKILLS GRAPHIC ====================-->
-       <div class="container">
-        <div class="skills_content skills_open">
-         <div class="skills_header">
-          <div>
-           <h1 class="skills_title">Graphic Design</h1>
-           <span class="skills_subtitle">More than 1 year </span>
-          </div>
-         </div>
-        </div>
-        
-        <div class="row">
-         <div class="six columns">
-          <img src="images/CANVA.svg" alt="Canva icon with blurb background" width="100%">
-          
-          <!-- <div class="skills_titles">
-           <h3 class="skills_name">Canva</h3>
-           <span class="skills_number">80%</span>
-          </div> -->
-          
-          <!-- <div class="skills_bar">
-           <span class="skills_percentage skills_canva"></span>
-          </div> -->
-         </div>
-         
-         <div class="six columns">
-          <img src="images/PHOTOSHOP.svg" alt="PHOTOSHOP icon with blurb background" width="100%">
-          <!-- <div class="skills_titles">
-           <h3 class="skills_name">Photoshop</h3>
-           <span class="skills_number">60%</span>
-          </div> -->
-          
-          <!-- <div class="skills_bar">
-           <span class="skills_percentage skills_ps"></span>
-          </div> -->
-         </div>
-         
-        </div>
-        <!--end row-->
-       </div>
-       <!--end container-->
-      </section>
-     
-      <!--Projects-->
-      <section id="projects" title="projects">
-       <div class="break-container">
-        <h1 class="project-title break-center">Projects</h1>
-       </div>
-       
-       
-       <div class="container" style="text-align: center;">
-        <div class="row">
-         <div class="six columns">
-          <img src="images/sos-login-phone.png" alt="SOS Login screen">
-         </div>
-         <div class="six columns">
-          <h3 class="subtitle" style="color: #ff99ff; margin-top: 20px;">Squad on Site Mobile App Design</h3>
-          <p class="body-text">The Squad on Site (SOS) mobile app allows gamers to find other likeminded people to play team-based games with. In this collaborative effort, my role was as the designer and showcased are the design elements I've created.</p>
-           <button>
-            <a href="sos.html">View</a>
-           </button>
-          </div>
-        </div>
+      <!-- Button -->
+      <div class="btn-container">
+          <button class="btn">
+              <a href="https://beautyroyale284487220.wordpress.com/">
+                  View 
+                  <i class="fas fa-angle-double-right"></i>
+              </a>
+          </button>
+      </div>
+  </div>
+
+  <!-- Project Mellow Bears -->
+  <div class="card-container">
+
+      <!-- Title -->
+      <h3 class="project-title">Mellow Bears</h3>
+
+      <!-- Subtitle -->
+      <h4 class="project-subtitle">
+          <i class="far fa-lightbulb"></i>
+          Personal Project
+      </h4>
+      
+      <!-- Image -->
+      <img src="images/mellow-bears-devices.png" class="project-img" alt="Mellow Bears homepage site on laptop and mobile">
+
+      <!-- Description -->
+      <p class="project-description">Mellow Bears is a React Native project of a Teddy Bear e-commerce app using React Native Elements and React Navigation with Expo (best on mobile web-view!)</p>
+
+      <!-- Tags -->
+      <div class="tags">
+          <span class="solid" style="background-color: var(--tag-pink);">React Native</span>
+          <span class="solid" style="background-color: var(--tag-blue);">Adobe XD</span>
+          <span class="solid" style="background-color: var(--tag-purple);">React Navigation</span>
+          <span class="solid" style="background-color: var(--tag-ashpurple);">Graphic Design</span>
+          <span class="solid" style="background-color: var(--tag-pink);">Expo</span>
+          <span class="solid" style="background-color: var(--tag-blue);">Github</span>
+      </div>
+      
+      <!-- Button -->
+      <div class="btn-container">
+          <button class="btn">
+              <a href="mellow-bears.html">
+                  View 
+                  <i class="fas fa-angle-double-right"></i>
+              </a>
+          </button>
+      </div>
+  </div>
+
+  <!-- Project PTR Staffing -->
+  <div class="card-container">
+
+      <!-- Title -->
+      <h3 class="project-title">PTR Staffing</h3>
+
+      <!-- Subtitle -->
+      <h4 class="project-subtitle">
+          <!-- <i class="fas fa-suitcase"></i> -->
+          <i class="fas fa-suitcase-rolling"></i>
+          Freelance Project
+      </h4>
+      
+      <!-- Image -->
+      <img src="images/ptr-staffing-devices.png" class="project-img" alt="PTR Staffing homepage site on laptop and mobile">
+
+      <!-- Description -->
+      <p class="project-description">This project was completed using the client's choice of the CMS service Network Solutions. Their previous site was lost and recovered through archives, in which I recreated with a modern interface.</p>
+
+      <!-- Tags -->
+      <div class="tags">
+          <span class="solid" style="background-color: var(--tag-pink);">Network Solutions</span>
+          <span class="solid" style="background-color: var(--tag-blue);">Graphic Design</span>
+          <span class="solid" style="background-color: var(--tag-purple);">Domain Configuration</span>
+          <span class="solid" style="background-color: var(--tag-ashpurple);">Canva</span>
+      </div>
+      
+      <!-- Button -->
+      <div class="btn-container">
+          <button class="btn">
+              <a href="https://ptrstaffing.com">
+                  View 
+                  <i class="fas fa-angle-double-right"></i>
+              </a>
+          </button>
+      </div>
+  </div>
+
+  <!-- Project BT&C -->
+  <div class="card-container">
+
+      <!-- Title -->
+      <h3 class="project-title">Black Therapist & Company</h3>
+
+      <!-- Subtitle -->
+      <h4 class="project-subtitle">
+          <!-- <i class="fas fa-suitcase"></i> -->
+          <i class="fas fa-suitcase-rolling"></i>
+          Freelance Project
+      </h4>
+      
+      <!-- Image -->
+      <img src="images/btc-devices.png" class="project-img" alt="Black Therapist & Company homepage site on laptop and mobile">
+
+      <!-- Description -->
+      <p class="project-description">This project was completed with WordPress and hosted on Blue Host. The client requested a unique website that caters to new/current clients, and resources for clients, providers, and the general public. I also created their logo as requested and configured their domain name.</p>
+
+      <!-- Tags -->
+      <div class="tags">
+          <span class="solid" style="background-color: var(--tag-pink);">WordPress</span>
+          <span class="solid" style="background-color: var(--tag-blue);">Graphic Design</span>
+          <span class="solid" style="background-color: var(--tag-purple);">Domain Configuration</span>
+          <span class="solid" style="background-color: var(--tag-ashpurple);">Adobe Photoshop</span>
+      </div>
+      
+      <!-- Button -->
+      <div class="btn-container">
+          <button class="btn">
+              <a href="https://blacktherapistandcompanypdx.com/">
+                  View 
+                  <i class="fas fa-angle-double-right"></i>
+              </a>
+          </button>
+      </div>
+  </div>
+
+  <!-- Internship projects stemCONNECT -->
+  <div class="card-container">
+
+      <!-- Title -->
+      <h3 class="project-title">stemCONNECT</h3>
+
+      <!-- Subtitle -->
+      <h4 class="project-subtitle">
+          <i class="fas fa-cog"></i>
+          Internship
+      </h4>
+      
+      <!-- Image -->
+      <img src="images/stemconnect-devices.png" class="project-img" alt="stemCONNECT homepage site on laptop and placeholder on mobile">
+
+      <!-- Description -->
+      <p class="project-description">Starting in Feb. 2022, I became a Workforce Development intern with stemCONNECT, a program of the Florida High Tech Corridor. This page demonstrates the initiatives I've taken to add to the stemCONNECT program and achieve its goals of inspiring students to pursue STEM careers.</p>
+
+      <!-- Tags -->
+      <div class="tags">
+          <span class="solid" style="background-color: var(--tag-pink);">Canva</span>
+          <span class="solid" style="background-color: var(--tag-blue);">Graphic Design</span>
+          <span class="solid" style="background-color: var(--tag-purple);">MailChimp</span>
+          <span class="solid" style="background-color: var(--tag-ashpurple);">Adobe Photoshop</span>
+          <span class="solid" style="background-color: var(--tag-pink);">GoTo</span>
+          <span class="solid" style="background-color: var(--tag-blue);">Zoho</span>
+      </div>
+      
+      <!-- Button -->
+      <div class="btn-container">
+          <button class="btn">
+              <a href="stemconnect.html">
+                  View 
+                  <i class="fas fa-angle-double-right"></i>
+              </a>
+          </button>
+      </div>
+  </div>
+  </section>
+
+               
+<!--Contact break-->
+<section class="contact" id="contact" aria-labelledby="contact">
+  <div class="break-container">
+    <h1 class="contact-title break-center">Contact</h1>
+  </div>
+  <br>
+                
+  <!-- -------- Contact --------- -->
+  <form action="https://formsubmit.co/6985359f71b20d41cd975119009a467a" method="POST" class="container">
+    <div class="row">
+      <div class="six columns">
+          <label for="email">Your email</label>
+          <input class="u-full-width typing" type="email" placeholder="message@email.com" id="email" name="email">
       </div>
 
-     
-           
-           <br>
-           <br>
-          <div class="container" style="text-align: center;">
-            <div class="row">
-             <div class="six columns">
-              <h3 class="subtitle" style="color: #ff99ff;">Beauty Royale Site</h3>
-              <p class="body-text">The Beauty Royale website is a faux hair salon shop created in WordPress. This salon caters to type 4 hair types, typically found in people of color. The uniqueness of this salon is the opportunity to play video games while the client's hair is styled.</p>
-               <button>
-                <a href="https://beautyroyale284487220.wordpress.com/">View</a>
-               </button>
-               </div>
-               <div class="six columns">
-                <img src="images/beautyroyale-phone.png" alt="Beauty Royale Home screen">
-              </div>
-            </div>
-          </div>
-          <!--PTR Staffing Project-->
-               <br>
-               <br>
-              <div class="container" style="text-align: center;">
-                <div class="row">
-                 <div class="six columns">
-                  <img src="images/ptrstaffing.png" alt="PTRstaffing homepage in a laptop">
-                 </div>
-                 <div class="six columns">
-                  <h3 class="subtitle" style="color: #ff99ff;">PTRStaffing Website Re-Design</h3>
-                  <p class="body-text">This project was completed using the client's choice of the hosting service Network Solutions' website builder. Their previous site was lost and recovered through archives, in which I recreated with a modern interface.</p>
-                   <button>
-                    <a href="https://ptrstaffing.com">View</a>
-                   </button>
-                  </div>
-                </div>
-              </div>
-          <!--BTC Project-->
-            <br>
-            <br>
-          <div class="container" style="text-align: center;">
-            <div class="row">
-             <div class="six columns">
-              <h3 class="subtitle" style="color: #ff99ff;">Black Therapist & Company, LLC</h3>
-              <p class="body-text">This project was completed on Wordpress.org and hosted on Blue Host. The client requested a unique website that caters to new/current clients, and resources for clients, providers, and the general public. I also created their logo as requested and configured their domain name.</p>
-               <button>
-                <a href="https://blacktherapistandcompanypdx.com/">View</a>
-               </button>
-               </div>
-               <div class="six columns">
-                <img src="images/btc-mobile.png" alt="Black Therapist & Company, LLC mobile view">
-              </div>
-            </div>
-          </div>
-          <!--Mellow Bears project-->
-          <br>
-          <br>
-         <div class="container"style="text-align: center;">
-           <div class="row">
-            <div class="six columns">
-             <img src="images/mellow-bears-mobile.png" alt="Mellow Bears project in mobile view">
-            </div>
-            <div class="six columns">
-             <h3 class="subtitle" style="color: #ff99ff;">Mellow Bears React Project</h3>
-             <p class="body-text">Mellow Bears is a React Native project of a Teddy Bear e-commerce app using React Native Elements and React Navigation with Expo (best on mobile web-view!)</p>
-              <button>
-               <a href="mellow-bears.html">View</a>
-              </button>
-             </div>
-           </div>
-         </div>
-         <!--stemCONNECT Internship work-->
-         <br>
-         <br>
-        <div class="container" style="text-align: center;">
-          <div class="row">
-            <div class="six columns">
-              <h3 class="subtitle" style="color: #ff99ff;">stemCONNECT Internship</h3>
-              <p class="body-text">Starting in Feb. 2022, I became a Workforce Development intern with stemCONNECT, a program of the Florida High Tech Corridor. This page demonstrates the initiatives I've taken to add to the stemCONNECT program and achieve its goals of inspiring students to pursue STEM careers.</p>
-               <button>
-                <a href="stemconnect.html">View</a>
-               </button>
-            </div>
-           <div class="six columns">
-            <img src="images/stemconnect-webpage.png" alt="stemCONNECT webpage">
-           </div>
-          </div>
-        </div>
-        </section>
-               
-               <!--Contact break-->
-               <section class="contact" id="contact" aria-labelledby="contact">
-                <div class="break-container">
-                 <h1 class="contact-title break-center">Contact</h1>
-                </div>
-                <br>
-                
-                <!--Contact-->
-                <form action="https://formsubmit.co/6985359f71b20d41cd975119009a467a" method="POST" class="container">
-                 <div class="row">
-                  <div class="six columns">
-                   <label for="email">Your email</label>
-                   <input class="u-full-width typing" type="email" placeholder="message@email.com" id="email" name="email">
-                  </div>
-                  <div class="six columns ">
-                   <label for="recipient">Reason for contacting</label>
-                   <select class="u-full-width choice" id="recipient" name="select">
-                    <option value="Option 1">Question?</option>
-                    <option value="Option 2">Just General</option>
-                    <option value="Option 3">Giving Feedback</option>
-                   </select>
-                  </div>
-                 </div>
-                 <input type="text" name="_honey" style="display:none">
-                 <label for="exampleMessage">Message</label>
-                 <textarea class="u-full-width typing" placeholder="Hi Taylor..." id="message" name="textarea" aria-label="textarea"></textarea>
-                 <input class="button-primary" type="submit" value="Send" aria-label="submit form">
-                 
-                </form>
-               </section>
-               
-               <br>
-               <br>
-               <br>
-               <!--footer-->
-               <footer class="container footer-center">
-                <div class="row">
-                 <div class="one column">
-                  <a href="https://taystan.dev/">
-                   <img src="images/ts_logo.png" alt="logo TS" class="logo" width="150px" height="150px">
-                  </a>
-                 </div>
-                 
-                 <div class="three columns">
-                  <a href="https://taystan.dev/" id="footer-links">Home</a>
-                  <a href="#about" id="footer-links">About</a>
-                  <a href="#projects" id="footer-links">Projects</a>
-                  <a href="#contact" id="footer-links">Contact</a>
+      <div class="six columns">
+        <label for="recipient">Reason for contacting</label>
+        <select class="u-full-width choice" id="recipient" name="select">
+          <option value="Option 1">Question?</option>
+          <option value="Option 2">Just General</option>
+          <option value="Option 3">Giving Feedback</option>
+        </select>
+      </div>
+    </div>
+    
+    <input type="text" name="_honey" style="display:none">
+    <label for="exampleMessage">Message</label>
+    <textarea class="u-full-width typing" placeholder="Hi Taylor..." id="message" name="textarea" aria-label="textarea"></textarea>
+    <input class="button-primary" type="submit" value="Send" aria-label="submit form">
                   
-                 </div>
+  </form>
+</section>
+               
+
+
+<!------------- Footer -------------->
+  <footer class="container footer-center">
+    <div class="row">
+      <div class="one column">
+          <a href="https://taystan.dev/">
+            <img src="images/ts_logo.png" alt="logo TS" class="logo" width="150px" height="150px">
+          </a>
+      </div>
                  
-                 <div class="six columns">
-                  <p class="p-dark">Email: taylor.stanley@taystan.dev</p>
-                 </div>
-                 <div class="two columns">
-                  <a href="https://linkedin.com/in/ta11ystan/" class="fab fa-linkedin" aria-label="linkedin link"></a>
-                  <a href="https://github.com/tam-114/" class="fab fa-github" aria-label="github link"></a>
-                 </div>
-                </div>
+      <div class="three columns">
+        <a href="https://taystan.dev/" id="footer-links">Home</a>
+        <a href="#about" id="footer-links">About</a>
+        <a href="#projects" id="footer-links">Projects</a>
+        <a href="#contact" id="footer-links">Contact</a>           
+      </div>
+                 
+      <div class="six columns">
+        <p class="p-dark">Email: taylor.stanley@taystan.dev</p>
+      </div>
+      <div class="two columns">
+        <a href="https://linkedin.com/in/ta11ystan/" class="fab fa-linkedin" aria-label="linkedin link"></a>
+        <a href="https://github.com/tam-114/" class="fab fa-github" aria-label="github link"></a>
+      </div>
+    </div>
                 
-                <p id="p-trademark">All Rights Reserved | Taylor Stanley 2022 ©</p>
-               </footer>
+    <p id="p-trademark">All Rights Reserved | Taylor Stanley 2022 ©</p>
+  </footer>
 
    <!--JS for Preloader--------------------------------------------------------------->
 <script>
