@@ -274,7 +274,7 @@ img {
   /* Subtitle */
   h4.project-subtitle {
       color: var(--subtitle-color);
-      font-style: italic;
+      /* font-style: italic; */
       font-size: var(--large-font-size);
       line-height: 0%;
   }
