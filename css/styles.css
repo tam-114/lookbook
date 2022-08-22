@@ -240,6 +240,11 @@ img {
 
   /*-------------Projects--------------*/
 
+  section#projects {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+  }
+
   h1.project-title {
     text-align: center;
     font-size: var(--largest-font-size);
