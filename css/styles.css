@@ -268,7 +268,7 @@ img {
   /* Title */
   h3.project-title {
       color: var(--title-color);
-      filter: drop-shadow(0.06em 0.06em #9d9d9d); 
+      filter: drop-shadow(0.03em 0.03em #9d9d9d); 
       /* 1px = 0.06em */
       font-size: var(--biggest-font-size);
       word-wrap: break-word;
