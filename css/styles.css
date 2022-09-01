@@ -178,6 +178,7 @@ body {
 
 .gradient-text {
   font-weight: var(--font-medium);
+  
   background-color: purple;
   background-image: linear-gradient(-50deg, #e44acf, #f56fa3, #63c1e4); /* teal - #23d5ab*/
   background-size: 100%;
@@ -278,6 +279,7 @@ img {
       word-wrap: break-word;
       /* font-size: 4vw; */
       text-align: left;
+      text-decoration: none;
   }
 
   /* Subtitle */
@@ -323,7 +325,8 @@ img {
       /* 5px = 0.3em */
       margin: 0.19em;
       /* 3px = 0.19em */
-      color: white;
+      color: black;
+      /* color: white; */
       font-weight: bold;
       /* font-size: 0.9vw; */
       font-size: var(--small-font-size);
