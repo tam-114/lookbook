@@ -1,3 +1,4 @@
+// Hamburger menu in nav
 function openHamburgerMenu(){
     var x = document.getElementById("mainNavBar");
     if (x.className === "navBar"){
