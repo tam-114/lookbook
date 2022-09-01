@@ -325,9 +325,10 @@ img {
       /* 5px = 0.3em */
       margin: 0.19em;
       /* 3px = 0.19em */
-      color: black;
-      /* color: white; */
-      font-weight: bold;
+      /* color: black; */
+      color: white;
+      font-weight: 500;
+      filter: drop-shadow(0.1em 0.1em #414141);
       /* font-size: 0.9vw; */
       font-size: var(--small-font-size);
       
