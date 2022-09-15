@@ -23,8 +23,11 @@
   <!-- --------------- JS ----------------- -->
   <script src="js/script.js"></script>
 
-  	<!-- --------------- Font library------------ -->
+  <!-- --------------- Font library ----------- -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS Library ----------- -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -78,8 +81,10 @@
 <!-- Personal Projects-->
 <section class="container">
   <div class="row">
-      <!-- Project SOS-->
+    <!-- Project SOS-->
+    
       <div class="six columns">
+        <div data-aos="fade-right">
           <div class="card-container">
 
               <!-- Title -->
@@ -122,11 +127,14 @@
                   </button>
               </div>
           </div>
+        </div>
       </div>
 
      <!-- Project Mellow Bears -->
+     
      <div class="six columns">
-      <div class="card-container">
+      <div data-aos="fade-left">
+        <div class="card-container">
 
           <!-- Title -->
           <h3 class="project-title">
@@ -164,8 +172,9 @@
                   </a>
               </button>
           </div>
-      </div>
-    </div>            
+        </div>
+      </div>  
+    </div>
   </div>
 </section>
 
@@ -174,6 +183,7 @@
   <div class="row">
       <!-- Project PTR Staffing -->
       <div class="six columns">
+        <div data-aos="fade-right">
           <div class="card-container">
 
               <!-- Title -->
@@ -214,10 +224,12 @@
                   </button>
               </div>
           </div>
+        </div>
       </div>
 
       <!-- Project BT&C -->
       <div class="six columns">
+        <div data-aos="fade-left">
           <div class="card-container">
 
               <!-- Title -->
@@ -259,6 +271,7 @@
                   </button>
               </div>
           </div>
+        </div>
       </div>
   </div>
 </section>
@@ -268,6 +281,7 @@
   <div class="row">
       <!-- Internship projects stemCONNECT -->
       <div class="six columns">
+        <div data-aos="fade-up-right">
           <div class="card-container">
 
               <!-- Title -->
@@ -310,6 +324,7 @@
                   </button>
               </div>
           </div>
+        </div>
       </div>
   </div>
 </section>
@@ -378,13 +393,19 @@
     <p id="p-trademark">All Rights Reserved | Taylor Stanley 2022 ©</p>
   </footer>
 
-   <!--JS for Preloader--------------------------------------------------------------->
+   <!--JS for Preloader -------------------------------------->
 <script>
   var loader = document.getElementById("preloader");
     window.addEventListener("load", function() {
         loader.style.display= "none";
     })
 </script>
-  <!-- End Document ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+
+<!-- AOS Library JS -------------------------------- -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- End Document ––––––––––––––––––––––––––––––––––––––––––––––––––-->
 </body>
 </html>
