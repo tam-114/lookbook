@@ -441,7 +441,7 @@ h3.subtitle {
   font-size: var(--semi-normal-font-size);
 }
 
-.stem-sect {
+.sect-space {
   text-align: center;
   margin-bottom: 4%;
 }
