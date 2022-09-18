@@ -440,6 +440,12 @@ h3.subtitle {
   color: white;
   font-size: var(--semi-normal-font-size);
 }
+
+.stem-sect {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
 /*Footer*/
 
 .p-dark {
