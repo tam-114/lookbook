@@ -46,7 +46,7 @@
 }
 
 /*-----------------Body--------------------*/
-html, body {
+body {
     background-color: rgb(15, 15, 15);
     margin: 0 auto;
     overflow-x: hidden!important;
@@ -82,11 +82,7 @@ html, body {
   display: none;
 }
 
-@media (max-width: 400px) {
-  body {
-    overflow-x: hidden;
-  }
-}
+
 @media (max-width: 750px){
   
   .navBar a:not(:first-child){
@@ -117,6 +113,9 @@ html, body {
 
   .radial-gradient-2 {
     bottom: -3000px!important;
+    left: -30%!important;
+    width: 150px!important;
+    height: 250px!important;
   }
 
   .radial-gradient-3 {
