@@ -46,11 +46,18 @@
 }
 
 /*-----------------Body--------------------*/
-body {
+html, body {
     background-color: rgb(15, 15, 15);
-    margin: 0;
-    overflow-x: hidden;
+    margin: 0 auto;
+    overflow-x: hidden!important;
 }
+
+ /* max-width: no greater than */
+ /* @media only screen and (max-width: 750px) {
+  html, body {
+    overflow-x: hidden!important;
+  }
+ } */
 
 /*----------------Navigation----------------------*/
 .navBar{
@@ -584,9 +591,3 @@ footer {
   max-height: 100%;
  }
 
- /* max-width: no greater than */
- @media (max-width: 750px) {
-  html, body {
-    overflow-x: hidden;
-  }
- }
