@@ -1,200 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOS</title>
 
-  <!-- Basic Page Needs
+    
+  <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Squad on Site</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant:wght@300;400&display=swap" rel="stylesheet">
 
-  <!------------ Mobile Specific Metas ---------------->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-  <!------------- FONT ––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!----------------- CSS ---–––––––––––––––––––––-->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/styles.css">
-
-  <!---------------- Favicon –––––––––––––––––––––––––-->
-  <link rel="icon" type="image/png" href="images/ts_logo.png">
-
-  <!---------------- JS -------------------->
-  <script src="js/script.js"></script>
-
-  <!------------------ Font library ----------------->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Font library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body style="background-color: black;" id="window">
 
-<div class="navBar" id="mainNavBar">
-    <a href="#home"><img src="images/ts_logo.png" alt="TS logo" width="40px" height="45px"></a>
-    <a href="https://taystan.dev/#home">Home</a>
-    <!-- <a href="https://taystan.dev/#about">About</a> -->
-    <a href="https://taystan.dev/#projects">Projects</a>
-    <a href="https://taystan.dev/#contact">Contact</a>
-    <a href="javascript:void(0);" class="icon" onClick="openHamburgerMenu()">&#9776;</a>
-    <!--&#9776; is the code for the 3 line menu button-->
+<!-- Navigation -->
+<nav>
+  <div class="navBar" id="mainNavBar">
+    <a href="https://taystan.dev/#home" aria-label="home logo"><img src="images/ts_logo.png" alt="TS logo" width="40px" height="45px"></a>
+    <a href="https://taystan.dev/" aria-labelledby="home">Home</a>
+    <!-- <a href="#about" aria-labelledby="about">About</a> -->
+    <a href="https://taystan.dev/#projects" aria-labelledby="projects">Projects</a>
+    <a href="https://taystan.dev/#contact" aria-labelledby="contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" aria-label="menu" onclick="openHamburgerMenu()">&#9776;</a>
+    <!--&#9776; is the unicode for the 3 line menu button-->
   </div>
-  <br>
-  <br>
+</nav>
 
-<div class="container">
-    <h2 class="sos-title" style="color: #ff99ff;">Squad on Site Designs</h2>
-</div>
-
-<!-- Landing Page -->
-<div class="container" style="text-align: center;">
-  <img src="images/sos-devices.png" alt="SOS on desktop and mobile" class="project-img">
-  <h3 class="subtitle" style="color: #ff99ff;">
-    <a href="https://tam-114.github.io/sos" target="_blank">
-     S.O.S Landing Page
-    </a>
-  </h3>
-  <p class="body-text">This is the Squad on Site (S.O.S) landing page that introduces the faux app. It lists it's features of the calendar function, personality test for recommendations, and the newsfeed. Highlighted are the games available to join groups for, and the messaging capability in the app. There is also a contact form for subscribing to the app's eventual release. </p>
-  <button>
-    <a href="https://tam-114.github.io/sos" target="_blank">
-     View
-     <i class="fas fa-angle-double-right"></i>
-   </a>
- </button>
-</div>
-
-<!-- break -->
-<hr>
-
-<!--Logo-->
-<div class="container">
+<!-- Spacing -->
+<div class="padding-space"></div>
+ 
+<!-- ------- Project Section -------- -->
+<section style="padding-top: 50px;">
     <div class="row">
         <div class="six columns">
-            <img src="images/sos-logo.png" alt="Squad on Site SOS logo" max-width="100%">
+              <div class="container">
+                <!-- <img src="images/sos-page.png" alt="SOS screenshot" style="max-width: 100%;"> -->
+                <img src="images/sos-devices.png" alt="SOS devices" style="max-width: 100%">
+                <img src="images/sos-homebanner2.png" alt="SOS home banner" style="max-width: 100%">
+                <img src="images/sos-businesscard.png" alt="Squad on Site SOS Business Card" width="100%" max-width="100%">
+                <video controls>
+                    <source src="media/SOS-Presentation.mp4" type="video/mp4" width="100%">
+                </video>
+              </div>
         </div>
-        <div class="four columns">
-            <h3 class="subtitle" style="color: #ff99ff;">S.O.S Logo</h3>
-            <p class="body-text">This represents the Squad on Site logo, using Planet Kosmos as the branding font. The colors red, dark blue, black, white, and teal are the brand's primary colors to reflect a casual, welcoming, fun and trustworthy look.</p>
-        </div>
-    </div>
-</div>
+            
+        <div class="six columns" style="position: sticky; top: 0px; padding-bottom: 2%;">
+            <div class="container">
+                <!-- Title -->
+                <h3 class="project-title">
+                    <a href="sos.html">Squad on Site (S.O.S)</a>
+                </h3>
 
-<!--break-->
-<hr>
+                <!-- Subtitle -->
+                <h4 class="project-subtitle">
+                    <i class="far fa-lightbulb"></i>
+                    Personal Project
+                </h4>
 
-<!--Business Card-->
-<div class="container">
-  <div class="row">
-      <div class="five columns">
-          <h3 class="subtitle" style="color: #ff99ff;">S.O.S Business Card</h3>
-          <p class="body-text">The S.O.S business card includes the link to the faux landing page for our app. This was created in Photoshop, and used in our presentation that shows multiple aspects we're developing and have considered for the app.</p>
-      </div>
-      <div class="seven columns">
-        <img src="images/sos-businesscard.png" alt="Squad on Site SOS Business Card" max-width="100%">
-      </div>
-  </div>
-</div>
+                  <!-- Description -->
+                  <p class="project-description">
+                    The Squad on Site (SOS) mobile app allows gamers to find other likeminded people to play team-based games with, and was a collaborative project that I've developed more on. In this effort, my role was as the designer.
+                    <br>
+                    In developing this project, I created a landing page that showcases the features that will be included in the app. This would include the personality test, news feed, and calendar features as found on the <span style="text-decoration: underline;"><a href="https://xd.adobe.com/embed/9a2ae135-6bf8-4930-bce1-d4adbd8cae73-cf79/?fullscreen" target="_blank">wireframe with Adobe XD</a></span>.
+                    <br>
+                    Design choices for the website were to capitalize on a sleek feel for a new mobile app. The graphics were created with Adobe Photoshop, such as the messaging images, phones in the banner, logo, and color changes to the icons.
+                    <br>
+                    There is an optional form for contact to be notified of the release date of the app as it is currently under development being built in React Native. The site is mobile and user-friendly using HTML5, CSS3, JavaScript, Bootstrap framework, and the AOS animation library.
+                  </p>
 
-<!--break-->
-<hr>
 
-<div class="container sect-space">
-  <iframe width="328" height="926" src="https://xd.adobe.com/embed/9a2ae135-6bf8-4930-bce1-d4adbd8cae73-cf79/?fullscreen" frameborder="0" allowfullscreen></iframe>
+                  <!-- Tags -->
+                  <div class="tags">
+                    <span class="solid" style="background-color: var(--tag-ashpurple);">Graphic Design</span>
+                    <span class="solid" style="background-color: var(--tag-ashpurple);">Adobe Photoshop</span>
+                    <span class="solid" style="background-color: var(--tag-ashpurple);">Adobe XD</span>
+                    <span class="solid" style="background-color: var(--tag-ashpurple);">HTML5</span>
+                    <span class="solid" style="background-color: var(--tag-ashpurple);">CSS3</span>
+                    <span class="solid" style="background-color: var(--tag-ashpurple);">JavaScript</span>
+                    <span class="solid" style="background-color: var(--tag-ashpurple);">Bootstrap</span>
+                    <span class="solid" style="background-color: var(--tag-ashpurple);">Wireframing</span>
+                    <span class="solid" style="background-color: var(--tag-ashpurple);">Logo</span>
+                    
+                </div>
 
-  <h3 class="subtitle" style="color: #ff99ff;">
-    <a href="https://xd.adobe.com/embed/9a2ae135-6bf8-4930-bce1-d4adbd8cae73-cf79/?fullscreen" target="_blank">
-    S.O.S Protoype
-    </a>
-  </h3>
-  <p class="body-text">This prototype was created in Adobe XD as a collaborative effort, and was the basis for the application.
-  </p>
-    <button>
-       <a href="https://xd.adobe.com/embed/9a2ae135-6bf8-4930-bce1-d4adbd8cae73-cf79/?fullscreen" target="_blank">
-        View
-        <i class="fas fa-angle-double-right"></i>
-      </a>
-    </button>
-</div>
-
-<!-- break -->
-<hr>
-
-<!--Presentation-->
-<br>
-<div class="container sect-space">
-  <video controls>
-    <source src="media/SOS-Presentation.mp4" type="video/mp4">
-  </video>
-  <h3 class="subtitle" style="color: #ff99ff;">
-    <a href="https://docs.google.com/presentation/d/1QeROlI7lGU6jTK2pvUYTANYLLbkl7bPT/edit?usp=sharing&ouid=103312827854716774604&rtpof=true&sd=true" target="_blank">
-      S.O.S Presentation
-    </a>
-  </h3>
-        <p class="body-text">This presentation demonstrates key features of the Squad on Site App, including our synposis, market analysis, current product/app analysis, the design summary, maintenance plan, and our overall successes and challenges.
-          </p>
-    <button>
-      <a href="https://docs.google.com/presentation/d/1QeROlI7lGU6jTK2pvUYTANYLLbkl7bPT/edit?usp=sharing&ouid=103312827854716774604&rtpof=true&sd=true" target="_blank">
-        View
-        <i class="fas fa-angle-double-right"></i>
-      </a>
-    </button>
-</div>
-
-<!-- next/prev buttons -->
-<div class="container" style="
-display: block;
-position: relative;
-text-align: right;
-">
-  <p>
-    <a href="https://taystan.dev/">
-      <i class="fas fa-angle-double-left"></i>
-        Prev
-    </a>
-    <span style="color: white;">|</span>
-    <a href="https://taystan.dev/mellow-bears.html">
-    Next
-    <i class="fas fa-angle-double-right"></i>
-    </a>
-  </p>
-</div>
-
-<!--footer-->
-<footer class="container footer-center">
-    <div class="row">
-      <div class="one column">
-        <a href="https://taystan.dev/">
-            <img src="images/ts_logo.png" alt="logo TS" class="logo" width="150px" height="150px">
-          </a>
-      </div>
-  
-      <div class="three columns">
-        <a href="https://taystan.dev/" id="footer-links">Home</a>
-        <!-- <a href="https://taystan.dev/#about" id="footer-links">About</a> -->
-        <a href="https://taystan.dev/#projects" id="footer-links">Projects</a>
-        <a href="https://taystan.dev/#contact" id="footer-links">Contact</a>
-      
-      </div>
-      
-      <div class="six columns">
-        <p class="p-dark">Email: taylor.stanley@taystan.dev</p>
-      </div>
-      <div class="two columns">
-        <a href="https://linkedin.com/in/tstanwebdev/" class="fab fa-linkedin"></a>
-        <a href="https://github.com/tam-114/" class="fab fa-github"></a>
-      </div>
-    </div>
+                 <!-- Button -->
+              <div class="btn-container">
+                <button class="btn">
+                    <a href="https://tam-114.github.io/sos/">
+                        View 
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                </button>
+            </div> <!--end button-->
+          </div> <!--end container-->
+          
+          
+          <!-- next/prev buttons -->
+          <div class="container" style="
+          display: block;
+          position: relative;
+          text-align: right;
+          ">
+            <p>
+              <a href="https://taystan.dev/">
+                <i class="fas fa-angle-double-left"></i>
+                  Prev
+              </a>
+              <span style="color: white;">|</span>
+              <a href="mellowbears.html">
+              Next
+              <i class="fas fa-angle-double-right"></i>
+              </a>
+            </p>
+          </div>
+        </div> <!--end 2nd 6th col-->
+    </div> <!--end row-->
+</section>
     
-    <p id="p-trademark">All Rights Reserved | Taylor Stanley 2022 &copy;</p>
-    <!--<div class="row">
-      <div class="col align-self-end">
-        <p id="p-trademark">All Rights Reserved | Taylor Stanley 2021 &copy;</p>
-      </div>
-    </div>-->
-  </footer>
-  
-  <!-- End Document ––––––––––––––––––––––––––––––––––––––––––––––––––-->
-  </body>
-  </html>
-  
+ <!------------- Footer -------------->
+ <footer class="container footer-center">
+  <div class="row">
+    <div class="one column">
+        <a href="https://taystan.dev/">
+          <img src="images/ts_logo.png" alt="logo TS" class="logo" width="150px" height="150px">
+        </a>
+    </div>
+               
+    <div class="three columns">
+      <a href="https://taystan.dev/" id="footer-links">Home</a>
+      <!-- <a href="#about" id="footer-links">About</a> -->
+      <a href="https://taystan.dev/#projects" id="footer-links">Projects</a>
+      <a href="https://taystan.dev/#contact" id="footer-links">Contact</a>           
+    </div>
+               
+    <div class="six columns">
+      <p class="p-dark">Email: taylor.stanley@taystan.dev</p>
+    </div>
+    <div class="two columns">
+      <a href="https://linkedin.com/in/ta11ystan/" class="fab fa-linkedin" aria-label="linkedin link"></a>
+      <a href="https://github.com/tam-114/" class="fab fa-github" aria-label="github link"></a>
+    </div>
+  </div>
+              
+  <p id="p-trademark">All Rights Reserved | Taylor Stanley 2022 ©</p>
+</footer>
+
+<!-- JS ------------------------------------------ -->
+  <script src="js/script.js"></script>
+
+<!-- AOS Animation Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
