@@ -6,7 +6,7 @@
   <meta name="description" content="Portfolio website for Taylor Stanley, Junior Front-End Developer">
   <meta name="author" content="Taylor Stanley">
 
-  <!-- -----------Mobile Specific Metas--------- -->
+  <!-- ----------- Mobile Specific Metas --------- -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- ------------- FONT ------------- -->
@@ -28,7 +28,7 @@
   <!-- --------------- Font library ----------- -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- AOS Library ----------- -->
+  <!-- -------- AOS Library ----------- -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -65,12 +65,13 @@
       <h5>
        <em>Also known as Taystan</em>
       </h5>
-        <a href="#contact">
-            <span class="btn btn-container">
-                Message Me
-            </span>
+      
+        <a href="#contact" class="btn">
+          <span class="btn btn-container">
+              Message Me
+          </span>
         </a>
-
+      
     </div>
   </div>
   </div>   
@@ -81,7 +82,7 @@
 <div class="padding-space"></div>
 
 <!-- About Me -->
-<section id="about">
+<section id="about" aria-labelledby="about">
   <h1 class="ct-title font-alex">About Me</h1>
 
   <div class="container">
@@ -167,7 +168,7 @@
 <div class="padding-space"></div>
 
 <!-- New layout projects -->
-<section id="projects">
+<section id="projects" aria-labelledby="projects">
   <h1 class="ct-title font-alex">Projects</h1>
   <h5  class="project-caption">A collection of my recent projects.</h5>
 
