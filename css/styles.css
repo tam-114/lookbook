@@ -319,7 +319,7 @@ img {
 
   /*-------------Projects--------------*/
 
-  section#projects {
+  section#projects, section#about, section#contact {
     margin-top: 10vh;
     margin-bottom: 10vh;
   }
