@@ -8,12 +8,34 @@ function openHamburgerMenu(){
     }
   }
 
+  var personals = document.getElementsByClassName("notpersonal");
+  var freelances = document.getElementsByClassName("notfreelance");
+  var internship = document.getElementsByClassName("notinternship");
 
-  function togglePersonalProjects() {
-    var personals = document.getElementsByClassName("notpersonal")
+// function toggleProjects() {
+//  if (Array.from(personals).forEach((personalProjects) => {
+//   personalProjects.style.display === "none"}) ) {
+//     personalProjects.style.display = "block";
+//     Array.from(freelances).forEach((freelanceProjects) => {freelanceProjects.style.display = "none";});
+//     Array.from(internship).forEach((internshipProjects) => {internshipProjects.style.display = "none";});
+//   } else if  ( Array.from(freelances).forEach((freelanceProjects) => {
+//     freelanceProjects.style.display === "none"}) ) {
+//       freelanceProjects.style.display = "block";
+//       Array.from(personals).forEach((personalProjects) => {personalProjects.style.display = "none";});
+//       Array.from(internship).forEach((internshipProjects) => {internshipProjects.style.display = "none";});
+//   } else if (  Array.from(internship).forEach((internshipProjects) => {
+//     internshipProjects.style.display === "none"}) ) {
+//       internshipProjects.style.display = "block";
+//       Array.from(personals).forEach((personalProjects) => {personalProjects.style.display = "none";});
+//       Array.from(freelances).forEach((freelanceProjects) => {freelanceProjects.style.display = "none";});
+//     }
+// }
+
+function togglePersonalProjects() {
     Array.from(personals).forEach((personalProjects) => {
     if (personalProjects.style.display === "none") {
         personalProjects.style.display = "block";
+     
     } else {
         personalProjects.style.display = "none";
     }
@@ -21,7 +43,6 @@ function openHamburgerMenu(){
 }
 
 function toggleFreelanceProjects() {
-    var freelances = document.getElementsByClassName("notfreelance")
     Array.from(freelances).forEach((freelanceProjects) => {
     if (freelanceProjects.style.display === "none") {
         freelanceProjects.style.display = "block";
@@ -32,7 +53,6 @@ function toggleFreelanceProjects() {
 }
 
 function toggleInternshipProject() {
-    var internship = document.getElementsByClassName("notinternship")
     Array.from(internship).forEach((internshipProjects) => {
     if (internshipProjects.style.display === "none") {
         internshipProjects.style.display = "block";

@@ -139,6 +139,16 @@ body {
 
 /*----------------Introduction---------------*/
 
+@media screen and (max-width: 540px) {
+  .mobile-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
 .intro {
   margin-top: 10%;
   justify-content: center;
