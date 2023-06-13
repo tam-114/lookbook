@@ -51,8 +51,13 @@ body {
     background-color: rgb(15, 15, 15);
     margin: 0 auto;
     overflow-x: hidden!important;
-    font-family: 'Cormorant', serif;
-    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;    
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.6)), url(../images/starry-night-bg.jpg); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.6)), url(../images/mountains.jpg); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
 }
 
  /* max-width: no greater than */
@@ -156,7 +161,7 @@ body {
   margin-bottom: 5%;
 }
 
-/* .bg-grad-anim {
+.bg-grad-anim {
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -212,7 +217,7 @@ body {
     opacity: .2;
     transform: scale(1.5) rotate(50deg);
   }
-} */
+}
 
 .intro:last-child {
   color: white;
@@ -235,7 +240,7 @@ body {
 }
 
 
-/* .radial-gradient-1 {
+.radial-gradient-1 {
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -269,7 +274,7 @@ body {
   height: 500px;
   border-radius: 20rem;
   background: radial-gradient(ellipse, rgb(49, 2, 49) 20%, rgb(36, 1, 36) 40%, transparent 70%, rgb(15, 15, 15) 80%);
-} */
+}
 
 button, a {
     text-decoration: none;
