@@ -52,6 +52,7 @@ body {
     margin: 0 auto;
     overflow-x: hidden!important;
     font-family: 'Cormorant', serif;
+    font-size: 1.8rem;
 }
 
  /* max-width: no greater than */
@@ -72,7 +73,7 @@ body {
   color: white;
   padding: 0.875em 1em;
   text-decoration: none;
-  font-size: 1.06em;
+  font-size: 1.8rem;
 }
 
 .navBar a:hover{
@@ -155,7 +156,7 @@ body {
   margin-bottom: 5%;
 }
 
-.bg-grad-anim {
+/* .bg-grad-anim {
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -211,7 +212,7 @@ body {
     opacity: .2;
     transform: scale(1.5) rotate(50deg);
   }
-}
+} */
 
 .intro:last-child {
   color: white;
@@ -219,7 +220,6 @@ body {
 
 .gradient-text {
   font-weight: var(--font-semi-bold);
-  
   background-color: purple;
   background-image: linear-gradient(-50deg, #e44acf, #f56fa3, #63c1e4); /* teal - #23d5ab*/
   background-size: 100%;
@@ -235,7 +235,7 @@ body {
 }
 
 
-.radial-gradient-1 {
+/* .radial-gradient-1 {
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -269,7 +269,7 @@ body {
   height: 500px;
   border-radius: 20rem;
   background: radial-gradient(ellipse, rgb(49, 2, 49) 20%, rgb(36, 1, 36) 40%, transparent 70%, rgb(15, 15, 15) 80%);
-}
+} */
 
 button, a {
     text-decoration: none;
@@ -597,7 +597,8 @@ h3.subtitle {
 /*Footer*/
 
 .p-dark {
-	font-size: var(--normal-font-size);
+	/* font-size: var(--normal-font-size); */
+  font-size: 1.8rem;
 	color: white;
 	text-align: center;
 }
@@ -620,7 +621,8 @@ footer {
 .footer-links {
 	color: white;
 	padding-right: 10px;
-	font-size: var(--normal-font-size);
+	/* font-size: var(--normal-font-size); */
+  font-size: 1.8rem;
 	text-decoration: none;
 }
 
