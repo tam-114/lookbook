@@ -143,9 +143,37 @@ body {
   padding: 10px 10px;
 }
 
+p, a {
+  font-weight: 400;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /*----------------Introduction---------------*/
+.desktop-show {
+  display: block;
+}
+
+@media screen and (min-width: 550px) {
+  .desktop-show {
+    display: block!important;
+  }
+}
+
+.mobile-show {
+  display: none;
+}
+
 
 @media screen and (max-width: 540px) {
+  .desktop-show {
+    display: none;
+  }
+  .mobile-show {
+    display: block!important;
+  }
   .mobile-center {
     display: flex;
     justify-content: center;
@@ -180,13 +208,13 @@ body {
 }
 
 .bg-grad-anim-2 {
-  overflow: hidden;
+  overflow-x: hidden!important;
   position: absolute;
   z-index: -1;
-  bottom: -400px;
-  right: 58%;
-  width: 400px;
-  height: 400px;
+  bottom: -200px;
+  left: 58%;
+  width: 200px;
+  height: 200px;
   border-radius: 20rem;
   background: radial-gradient(77.73% 77.73% at 98.52% 96.25%,#ff00b3 0,rgba(239, 76, 157, 0.29) 60.52%,rgba(91,216,216,0) 100%),radial-gradient(141.73% 105.23% at 50% -7.16%,#ff58bf 0,rgba(160,236,255,0) 60.73%,rgba(147,154,255,0) 100%),radial-gradient(112.27% 48.54% at 1.59% 50%,rgba(255, 73, 209, 0.5) 0,rgba(73,121,255,.09) 60.91%,rgba(216,237,255,0) 100%),linear-gradient(
 153.07deg,#f377bf 16.37%,rgba(103,237,255,0) 83.82%);
@@ -195,6 +223,16 @@ body {
   -webkit-animation: 8s linear .5s infinite fadeloop2;
   animation: 8s linear .5s infinite fadeloop2;
   animation-delay: 12s;
+}
+
+@media screen and (min-width: 550px) {
+  .bg-grad-anim-2 {
+    overflow-x: hidden!important;
+    left: 95%!important;
+    width: 400px!important;
+    height: 400px!important;
+    bottom: -300px!important;
+  }
 }
 
 @keyframes fadeloop {
