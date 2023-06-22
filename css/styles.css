@@ -137,7 +137,7 @@ body {
 }
 
 .padding-space {
-  padding: 20px 20px;
+  padding: 60px 20px;
 }
 .padding-space-2 {
   padding: 10px 10px;
@@ -189,6 +189,64 @@ p, a {
   margin-bottom: 5%;
 }
 
+.get-started {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 130px;
+  padding-bottom: 130px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.scroll-down {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: 'Cormorant', serif;
+}
+
+.w-50 {
+  width: 50px;
+}
+
+.mouse-hop {
+  animation-name: mouse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-direction: alternate;
+}
+
+@keyframes mouse {
+  from {
+    transform: translate(0,-5px);
+  }
+  to {
+    transform: translate(0,5px);
+  }
+
+  /* 0%   { 
+    transform: translate(0,-10px);
+  }
+  25%  { 
+    transform: translate(0,-5px);
+  }
+  50%  { 
+    transform: translate(0,0);
+  }
+  75%  { 
+    transform: translate(0,5px);
+  }
+  100% { 
+    transform: translate(0,10px);
+  } */
+}
+
 .bg-grad-anim {
   overflow: hidden;
   position: absolute;
@@ -232,6 +290,10 @@ p, a {
     width: 400px!important;
     height: 400px!important;
     bottom: -300px!important;
+  }
+
+  .h-45vh {
+    height: 45vh;
   }
 }
 
