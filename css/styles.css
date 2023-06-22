@@ -460,7 +460,8 @@ img {
       font-weight: 500;
       filter: drop-shadow(0.1em 0.1em #414141);
       /* font-size: 0.9vw; */
-      font-size: var(--small-font-size);
+      /* font-size: var(--small-font-size); */
+      font-size: 14px;
       
   }
 
