@@ -46,6 +46,10 @@
 
 }
 
+/* font-family: 'Caprasimo', cursive;
+font-family: 'Jomhuria', cursive;
+font-family: 'Jost', sans-serif; */
+
 /*-----------------Body--------------------*/
 body {
     background-color: rgb(15, 15, 15);
@@ -69,8 +73,10 @@ body {
 
 /*----------------Navigation----------------------*/
 .navBar{
-  background-color: rgb(15, 15, 15);
-
+  /* background-color: rgb(15, 15, 15); */
+  background: transparent;
+  display: flex;
+  justify-content: center;
 }
 
 .navBar a{
@@ -811,10 +817,11 @@ footer {
   transition: .5s ease;
   opacity: 0;
   position: relative;
-  top: 50%;
+  /* top: 50%; */
   left: 50%;
-  transform: translate(-50%, -150%);
-  -ms-transform: translate(-50%, -150%);
+  bottom: 0;
+  transform: translate(-50%, -220%);
+  -ms-transform: translate(-50%, -220%);
   text-align: center;
 }
 
