@@ -327,6 +327,76 @@ ul {
     /* font-style: italic; */
 }
 
+/* ===================== SUBHEADINGS FONTS ================= */
+
+.subtitle {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
 @media screen and (min-width: 406px) {
     .project {
         position: relative;
@@ -547,7 +617,7 @@ ul {
 
 .services-card {
     background-color: var(---white);
-    padding: 40px;
+    padding: 30px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
     overflow: hidden;
@@ -593,8 +663,8 @@ ul {
 
     .projects-card {
         width: 1200px;
-        /* height: auto; */
-        height: 900px;
+        height: auto;
+        /* height: 900px; */
     }
 }
 
@@ -963,6 +1033,7 @@ textarea {
     font-weight: 700;
     color: var(---orange);
     /* padding-bottom: 10px; */
+    font-family: "Lato", sans-serif;
 }
 
 .contact-col h1 {
