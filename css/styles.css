@@ -630,6 +630,8 @@ ul {
     border-radius: 10px;
     height: auto;
     max-height: 500px;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 /* Social Media Icons */
