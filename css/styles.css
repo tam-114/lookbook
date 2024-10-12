@@ -47,6 +47,10 @@ ul {
     list-style: none;
 }
 
+.fw-600 {
+    font-weight: 600;
+}
+
 /* #flower-bg {
     background-image: url(../images/flower-outline-op20.png), url(../images/flower-outline-op20.png);
     background-position: -10% 95%, 87% 11%;
@@ -577,7 +581,8 @@ ul {
 
 /* Services 3-column */
 .bg-services {
-    background-color: #DBB4AB;
+    /* background-color: #DBB4AB; */
+    background-color: rgb(219 180 171 / 60%);
 }
 
 .services-row {
@@ -605,7 +610,8 @@ ul {
     font-size: 20px;
     color: var(---orange);
     font-weight: 700;
-    padding: 8px;
+    /* padding: 8px; */
+    margin-bottom: 0;
 }
 
 .services-column p {
@@ -1025,7 +1031,13 @@ textarea {
     flex: 50%;
 }
 
-
+.about-subtitle {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #4b2904;
+}
 
 .contact-subtitle {
     text-transform: uppercase;
