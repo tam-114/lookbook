@@ -1039,6 +1039,8 @@ textarea {
     font-weight: 700;
     font-family: "Lato", sans-serif;
     color: var(---orange);
+    /* width: 100%;
+    margin: 0 auto; */
 }
 
 .contact-subtitle {
