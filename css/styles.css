@@ -661,6 +661,28 @@ ul {
     color: var(---orange);
 }
 
+/* Ionicon */
+.ion-icon {
+    width: 60px;
+    height: 68px;
+
+}
+
+.icon_blue {
+    color: #2B4162;
+}
+
+.icon_lpurple {
+    color: #F4C5EC;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
 /* Projects */
 @media screen and (min-width: 768px) {
     .projects-scroll {

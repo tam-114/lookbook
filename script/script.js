@@ -25,3 +25,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+document.addEventListener('DOMContentLoaded', () => {
+  var coll = document.getElementsByClassName("collapsible");
+
+  for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+
+      // Find the correct content div
+      var content = this.parentElement.nextElementSibling;
+
+      if (content && content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else if (content) {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+});
