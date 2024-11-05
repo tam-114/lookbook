@@ -63,8 +63,26 @@ ul {
         background-position: 25% 1%, 0% 93%, 69% 7%;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-size: 350px 270px, 350px 270px, 520px 450px;
+        animation: saku-move 2s infinite linear; /* Animation duration and infinite loop */
     }
 }
+
+/* @keyframes saku-move {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+/* .sakura-ani {
+   
+} */
+
 
 /* ------- Media Queries ------- */
 
@@ -572,7 +590,8 @@ ul {
     }
 }
 
-/* Services 3-column */
+
+/*=========================== Services 3-column ====================*/
 .bg-services {
     /* background-color: #DBB4AB; */
     background-color: rgb(219 180 171 / 60%);
