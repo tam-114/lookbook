@@ -57,15 +57,56 @@ ul {
     background-repeat: no-repeat, no-repeat;
     background-size: 520px 450px, 520px 450px;
 } */
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     #flower-bg {
         background-image: url(../images/cherry-blossom-filled-op25.png), url(../images/cherry-blossom-filled-op25.png), url(../images/cherry-blossom-filled-op25.png);
         background-position: 25% 1%, 0% 93%, 69% 7%;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-size: 350px 270px, 350px 270px, 520px 450px;
-        animation: saku-move 2s infinite linear; /* Animation duration and infinite loop */
+        animation: saku-move 2s infinite linear;
+    }
+} */
+
+@media screen and (min-width: 992px) {
+    #flower-bg {
+        position: relative;
+    }
+
+    #flower-bg::before,
+    #flower-bg::after {
+        content: "";
+        position: absolute;
+        background-image: url(../images/cherry-blossom-filled-op25.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: saku-move 10s infinite linear;
+    }
+
+    #flower-bg::before {
+        width: 350px;
+        height: 270px;
+        top: 1%;
+        left: 25%;
+    }
+
+    #flower-bg::after {
+        width: 520px;
+        height: 450px;
+        top: 7%;
+        left: 69%;
     }
 }
+
+
+@keyframes saku-move {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 /* @keyframes saku-move {
     0% {
