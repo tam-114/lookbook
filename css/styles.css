@@ -634,8 +634,8 @@ ul {
 
 /*=========================== Services 3-column ====================*/
 .bg-services {
-    /* background-color: #DBB4AB; */
-    background-color: rgb(219 180 171 / 60%);
+    background-color: #E7CDC7;
+    /*background-color: rgb(219 180 171 / 60%);*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
