@@ -86,14 +86,14 @@ ul {
         width: 350px;
         height: 270px;
         top: 1%;
-        left: 25%;
+        left: 12%;
     }
 
     #flower-bg::after {
         width: 520px;
         height: 450px;
-        top: 7%;
-        left: 69%;
+        top: 2%;
+        left: 38%;
     }
 }
 
@@ -107,25 +107,6 @@ ul {
     }
 }
 
-
-/* @keyframes saku-move {
-    0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-} */
-
-/* .sakura-ani {
-   
-} */
-
-
-/* ------- Media Queries ------- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 700px) {
