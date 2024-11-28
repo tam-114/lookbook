@@ -613,7 +613,25 @@ ul {
     }
 }
 
+.hero-img {
+    position: relative; 
+    top: 95px;
+    z-index: 1;
+    width: 150px;
+    height: auto;
+}
 
+@media (max-width: 1024px) {
+    .hero-img {
+        top: 95px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero-img {
+        top: 45px;
+    }
+}
 /*=========================== Services 3-column ====================*/
 .bg-services {
     background-color: #E7CDC7;
