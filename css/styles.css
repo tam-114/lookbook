@@ -325,6 +325,11 @@ ul {
     background-color: inherit;
 }
 
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #FF9800;
+}
+
 .contact-btn {
     display: block;
     font-size: 19px;
@@ -492,9 +497,10 @@ ul {
 
 .app-text p {
     font-size: 19px;
-    margin: 30px 30px 30px 30px;
     letter-spacing: 1px;
     color: var(---black);
+    max-width: 600px;
+    margin: auto;
 }
 
 .app-picture {
