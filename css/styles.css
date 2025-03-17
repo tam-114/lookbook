@@ -1328,3 +1328,7 @@ a.contact-banner-btn:hover {
 .color-black {
     color: #000;
 }
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 40px;
+}
