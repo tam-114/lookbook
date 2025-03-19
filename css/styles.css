@@ -51,21 +51,9 @@ ul {
     font-weight: 600;
 }
 
-/* #flower-bg {
-    background-image: url(../images/flower-outline-op20.png), url(../images/flower-outline-op20.png);
-    background-position: -10% 95%, 87% 11%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 520px 450px, 520px 450px;
-} */
-/* @media screen and (min-width: 992px) {
-    #flower-bg {
-        background-image: url(../images/cherry-blossom-filled-op25.png), url(../images/cherry-blossom-filled-op25.png), url(../images/cherry-blossom-filled-op25.png);
-        background-position: 25% 1%, 0% 93%, 69% 7%;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-size: 350px 270px, 350px 270px, 520px 450px;
-        animation: saku-move 2s infinite linear;
-    }
-} */
+::selection {
+    background: #FFA037;
+  }
 
 @media screen and (min-width: 992px) {
     #flower-bg {
@@ -1080,6 +1068,14 @@ form {
         padding: 20px!important;
         width: calc(100% + 10px)!important;
     }
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #FFA037;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(255, 160, 55, .25);
 }
 
 .required-star {
